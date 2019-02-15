@@ -1,0 +1,246 @@
+<div dir="ltr" style="text-align: left;" trbidi="on">
+		<h1>
+		How can we learn perfectly and easily ?</h1>
+		<div dir="ltr" style="text-align: left;">
+		<br />
+		0. Read Bismillah and then pray rabi zidni ilma and pray Allah save me from wrong knowldge and give me good one.<br />
+		1. After pick some points from any type of study, lecture or tutorial we must write learnt points. (when we write it will create pictures of the material in our brain for long time)<br />
+		2. Try to teach someone what you learnt today.
+		<br />
+		<h2>
+		Topics Covered : Ansible,&nbsp;Learn how to use ansible to setup a web platform</h2>
+		--------------------
+		
+		<br />
+		
+<a target="_top" href="#">Python Intro</a>
+<a target="_top" href="#">Python Installation</a>
+<a target="_top" href="#">Python Get Started</a> 
+<br> 
+ 
+    
+		<br />
+		<strong>Help</strong><br />
+		- Video: <a href="https://www.youtube.com/watch?v=3cZsjOclmoM" target="_blank"> Youtube help </a><br />
+		- Slideshare : <a href="https://www.slideshare.net/EdurekaIN/python-flask-tutorial-for-beginners-flask-web-development-tutorial-python-training-edureka?qid=ef9968d5-a7ef-43f9-baf1-874fe6c7e100&v=&b=&from_search=1" target="_blank"> Slide Share guide </a><br />
+		
+		<br />
+		<strong>Note</strong> Docker and docker-compose must be installed in your system Mac/linux/etc for GitHub url use. <br />
+		--------------------
+		<br />
+		<h1>&nbsp;</h1>
+
+<h1>Install Python 3.6 in Mac or Windows</h1>
+
+<p><a href="https://www.python.org/downloads/mac-osx/">https://www.python.org/downloads/mac-osx/</a>&nbsp;mac</p>
+
+<p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a> download windows package</p>
+
+<h1>Install Python 3.6 Linux (ubuntu)</h1>
+
+<p>Ubuntu 16.04 comes with both Python 2.7 and Python 3.5 by default.</p>
+
+<p>You can install Python 3.6 along with them via a <a href="https://launchpad.net/~jonathonf/+archive/ubuntu/python-3.6" target="_blank">third-party PPA</a> by doing following steps:</p>
+
+<p><strong>1.</strong> Open terminal via Ctrl+Alt+T or searching for &ldquo;Terminal&rdquo; from app launcher. When it opens, run command to add the PPA:</p>
+
+<pre>
+sudo add-apt-repository ppa:jonathonf/python-3.6</pre>
+
+<p><em>Type in your password (no visual feedback due to security reason) when it asks and hit Enter.</em></p>
+
+<p><img alt="" src="http://ubuntuhandbook.org/wp-content/uploads/2017/07/python-3.6-ppa-600x84.jpg" style="height:84px; width:600px" /></p>
+
+<p><strong>2.</strong> Then check updates and install Python 3.6 via commands:</p>
+
+<pre>
+sudo apt-get update
+
+sudo apt-get install python3.6</pre>
+
+<p>Now you have three Python versions, use <code>python</code> command for version 2.7, <code>python3</code> for version 3.5, and/or <code>python3.6</code> for version 3.6.1.</p>
+
+<p><img alt="" src="http://ubuntuhandbook.org/wp-content/uploads/2017/07/python-versions-600x143.jpg" style="height:143px; width:600px" /></p>
+
+<p><strong>3.</strong> To make <code>python3</code> use the new installed python 3.6 instead of the default 3.5 release, run following 2 commands:</p>
+
+<pre>
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2</pre>
+
+<p>Finally switch between the two python versions for <code>python3</code> via command:</p>
+
+<pre>
+sudo update-alternatives --config python3</pre>
+
+<p><img alt="" src="http://ubuntuhandbook.org/wp-content/uploads/2017/07/python3-alternative-600x179.jpg" style="height:179px; width:600px" /></p>
+
+<p>After selecting version 3.6:</p>
+
+<pre>
+python3 -V</pre>
+
+<p><img alt="" src="http://ubuntuhandbook.org/wp-content/uploads/2017/07/python3-3.6-600x75.jpg" style="height:75px; width:600px" /></p>
+
+<p><strong>UPDATE:</strong> due to this <a href="https://bugs.launchpad.net/ubuntu/+source/python3.6/+bug/1631367" target="_blank">bug</a>, gnome-terminal won&rsquo;t launch after step 3, a workaround is running following commands to recreate the symlink:</p>
+
+<pre>
+sudo rm /usr/bin/python3
+
+sudo ln -s python3.5 /usr/bin/python3</pre>
+
+<p>&nbsp;</p>
+
+<h1>Python PIP</h1>
+
+<p>PIP is a package manager same like composer in php for include libraries/Model.</p>
+
+<p>install the package named &quot;camelcase&quot;: $ pip install camelcase</p>
+
+<p>Uninstall the package named &quot;camelcase&quot;: $ pip uninstall camelcase</p>
+
+<p>List installed packages: $ pip list</p>
+
+<p>&nbsp;</p>
+
+<h1>Python Try Except</h1>
+
+<p>When an error occurs, or exception as we call it, Python will normally stop and generate an error message.</p>
+
+<p>The <code>try</code> block lets you test a block of code for errors.</p>
+
+<p>The <code>except</code> block lets you handle the error.</p>
+
+<p>The <code>finally</code> block lets you execute code, regardless of the result of the try- and except blocks.</p>
+
+<p>Code sample</p>
+
+<p>&nbsp;</p>
+
+<h2>Python Quickstart</h2>
+
+<p>type in terminal: $ python 1.py</p>
+
+<p>code sample:</p>
+
+<h2>Python Syntax</h2>
+
+<p>Python uses indentation to indicate a block of code.</p>
+
+<p>Comments start with a # for single line &quot;&quot;&quot; this is for multiple like comments</p>
+
+<p>code sample:</p>
+
+<p>&nbsp;</p>
+
+<h2>Creating Variables</h2>
+
+<p>A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:</p>
+
+<ul>
+	<li>A variable name must start with a letter or the underscore character</li>
+	<li>A variable name cannot start with a number</li>
+	<li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )</li>
+	<li>Variable names are case-sensitive (age, Age and AGE are three different variables)</li>
+</ul>
+
+<p>Variables do not need to be declared with any particular type and can even change type after they have been set.</p>
+
+<p>code sample:</p>
+
+<h2>Specify a Variable Type</h2>
+
+<p>int() - constructs an integer number</p>
+
+<p>float() - constructs a float number</p>
+
+<p>str() - constructs a string</p>
+
+<p>code sample:</p>
+
+<p>&nbsp;</p>
+
+<h2>Python Numbers</h2>
+
+<p>There are three numeric types in Python:</p>
+
+<ul>
+	<li>int</li>
+	<li>float</li>
+	<li>complex</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2>Python Operators</h2>
+
+<p>Operators are used to perform operations on variables and values.</p>
+
+<p>Python divides the operators in the following groups:</p>
+
+<ul>
+	<li>Arithmetic operators</li>
+	<li>Assignment operators</li>
+	<li>Comparison operators</li>
+	<li>Logical operators</li>
+	<li>Identity operators</li>
+	<li>Membership operators</li>
+	<li>Bitwise operators</li>
+</ul>
+
+<p>code sample</p>
+
+<p>&nbsp;</p>
+
+<h2>Python Collections (Arrays)</h2>
+
+<p>There are four collection data types in the Python programming language:</p>
+
+<ul>
+	<li><strong>List</strong> is a collection which is ordered and changeable. Allows duplicate members.</li>
+	<li><strong>Tuple</strong> is a collection which is ordered and unchangeable. Allows duplicate members.</li>
+	<li><strong>Set</strong> is a collection which is unordered and unindexed. No duplicate members.</li>
+	<li><strong>Dictionary</strong> is a collection which is unordered, changeable and indexed. No duplicate members.</li>
+</ul>
+
+<p>code sample:</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h1>&nbsp;</h1>
+
+<h1>Python Datetime</h1>
+
+<h2>What is a Module?</h2>
+
+<p>Consider a module to be the same as a code library.</p>
+
+<p>A file containing a set of functions, classes and dictionaries&nbsp;you want to include in your application.<br />
+example code</p>
+
+<h1>Python RegEx</h1>
+
+<p>A RegEx, or Regular Expression, is a sequence of characters that forms a search pattern.</p>
+
+<p>Python has a built-in package called <code>re</code>, which can be used to work with Regular Expressions.</p>
+
+<p>Code example</p>
+
+<h2>JSON in Python</h2>
+
+<p>Python has a built-in package called <code>json</code>, which can be use to work with JSON data.</p>
+
+<p>Convert from JSON to Python code example</p>
+
+<h1>&nbsp;</h1>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
