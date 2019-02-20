@@ -1,3 +1,15 @@
+# The four methods to perform pattern matching in “re”:
+
+# Match() – matches the regular expression pattern only to the beginning of the String and not to the beginning of each line.
+
+# Search() – scans the string and look for a location where the regular expression pattern matches.
+
+# Findall() – finds all the occurrences of the match and return them as a list.
+
+# Finditer() – finds all the occurrences of the match and return them as an iterator.
+
+
+
 import re
 
 #Check if the string starts with "The" and ends with "Spain":

@@ -1,3 +1,10 @@
+# To modify the strings, Python’s “re” module provides 3 methods. They are:
+
+# split() – uses a regex pattern to “split” a given string into a list.
+
+# sub() – locates all substrings where the regex pattern matches and then different string is replaced.
+
+# subn() – This method is similar to a sub() and it returns the new string along with the no. of replacements.
 
 b = "Hello, World!"
 print(b[2:5])
